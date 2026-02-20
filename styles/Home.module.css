@@ -53,7 +53,7 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  /* color: inherit; Removed - using global link color instead */
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -65,7 +65,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  /* color: #0070f3; Removed - using global link color instead */
   border-color: #0070f3;
 }
 

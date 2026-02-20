@@ -30,3 +30,18 @@ Lazy loading, things are loaded as they enter the viewport.
 
 Head is the next.js component. 
 
+Next.js has its own Script component to deal with the limitations of your average script tag.
+
+Cool it also supports sass
+
+The global css file imports only into the _app.js file
+
+### 19th February 2026 -
+
+Okay I changed the color of the link in the global.css file and it only changes the color of the Link component in the first-post.js file except for the homepage (index.js). I believe this is due to the Home.module.css file that takes priority over the global.css file 
+
+### 20th February 2026 - 
+
+GetStaticProps is a data fetching method in next.js. The page is loaded by the browser and the JS code runs to make it fully interactive. This process is called hydration.
+
+Initial load only the html is pre-rendered and displayed. Once that is done, then the JS loads and the app becomes interactive (hydrated).
